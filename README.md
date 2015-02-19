@@ -1,7 +1,7 @@
 redis
 =====
 
-A redis 2.8 server.
+Dockerized redis 2.8.
 
 Available Tags
 --------------
