@@ -14,6 +14,7 @@ Exposed Ports
 
 Volumes
 -------
+  * `/etc/redis/`
   * `/var/lib/redis/`
 
 License
