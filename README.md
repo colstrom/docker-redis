@@ -1,10 +1,25 @@
 redis
 =====
 
-Dockerized redis 2.8.
+Advanced key-value store.
 
-Available Tags
---------------
-* ```latest```([Dockerfile](https://github.com/colstrom/docker-redis/blob/master/Dockerfile))
+Tags
+----
+  * `latest` uses `colstrom/alpine` as a base. It weighs in at ~6MB, but provides nothing beyond redis (and busybox).
+  * `ubuntu` uses `colstrom/ubuntu-core` as a base. It is significantly heavier (>200MB) but may be better suited, depending on your needs.
 
-Preconfigured to listen on ```tcp/6379```.
+Exposed Ports
+-------------
+  * 6379
+
+Volumes
+-------
+  * `/var/lib/redis/`
+
+License
+-------
+[MIT](https://tldrlegal.com/license/mit-license)
+
+Contributors
+------------
+* [Chris Olstrom](https://colstrom.github.io/) | [e-mail](mailto:chris@olstrom.com) | [Twitter](https://twitter.com/ChrisOlstrom)
