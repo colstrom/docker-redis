@@ -3,4 +3,5 @@ RUN apk-install redis
 RUN mkdir /etc/redis \
     && mv /etc/redis.conf /etc/redis/
 EXPOSE 6379
+VOLUME ["/var/lib/redis"]
 ENTRYPOINT ["redis-server", "-", "daemonize", "no"]
