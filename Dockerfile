@@ -1,4 +1,4 @@
-FROM colstrom/alpine:main
+FROM colstrom/alpine
 RUN apk-install redis
 RUN mkdir /etc/redis \
     && mv /etc/redis.conf /etc/redis/
