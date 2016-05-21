@@ -1,5 +1,5 @@
 FROM colstrom/alpine
-RUN apk-install redis
+RUN package install redis
 RUN mkdir /etc/redis \
     && mv /etc/redis.conf /etc/redis/
 EXPOSE 6379
